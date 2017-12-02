@@ -5,6 +5,7 @@ import App from './App';
 import Login from './container/login/login'
 import Register from './container/register/register'
 import {BrowserRouter, Route} from 'react-router-dom'
+import '../node_modules/antd-mobile/dist/antd-mobile.css'; // or 'antd-mobile/dist/antd-mobile.less'
 
 import registerServiceWorker from './registerServiceWorker';
 
